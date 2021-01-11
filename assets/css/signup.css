@@ -11,7 +11,7 @@
 }
 
 .header {
-  color: #593F96;
+  color: #3D305B;
 }
 
 .signup-container p.info {
@@ -37,7 +37,7 @@
 .submit-btn {
   width: 100%;
   padding: .8rem;
-  background-color: #AE90E9;
+  background-color: #3D305B;
   color: #FFF;
   border: none;
   border-radius: .5rem;
@@ -55,7 +55,7 @@
 }
 
 .login a {
-  color: #593F96;
+  color: #3D305B;
 }
 
 @media (min-width: 600px) {
