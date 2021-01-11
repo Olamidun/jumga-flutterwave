@@ -14,3 +14,105 @@ a {
 ul {
   list-style: none;
 }
+
+button {
+  cursor: pointer;
+}
+
+/* Nav */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  color: #3D305B;
+  margin-right: auto;
+}
+
+.hamburger {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #3D305B;
+  margin: 2px 0;
+}
+
+.nav-links {
+  display: none;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+}
+
+.nav-links a {
+  padding: .7rem;
+  align-self: center;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.nav-links .create-btn {
+  width: 100%;
+}
+
+a.cart {
+  transform: translateY(3px)
+}
+
+.create-btn {
+  padding: .7rem;
+  border: none;
+  border-radius: .5rem;
+  transition: all .3s;
+  font-weight: 600;
+}
+
+.btn-1 {
+  background-color: #3D305B;
+  color: #FFF;
+}
+
+.btn-2 {
+  background-color: #FFF;
+  color: #3D305B;
+}
+
+.btn-1:hover {
+  background-color: transparent;
+  border: 1px solid #3D305B;
+  color: #3D305B;
+}
+
+@media (min-width: 768px) {
+  /* Nav */
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+
+  .nav-links a {
+    margin: 0 .6rem;
+    padding: 0;
+    width: auto;
+    display: inline-block;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
