@@ -29,8 +29,11 @@ nav {
 }
 
 .logo {
-  color: #3D305B;
   margin-right: auto;
+}
+
+.logo a {
+  color: #3D305B;
 }
 
 .hamburger {
