@@ -25,6 +25,7 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   padding: 1rem;
+  background-color: #FFF;
 }
 
 .logo {
@@ -75,13 +76,14 @@ a.cart {
 
 .create-btn {
   padding: .7rem;
-  border: none;
+  border: 1px solid transparent;
   border-radius: .5rem;
   transition: all .3s;
   font-weight: 600;
 }
 
 .btn-1 {
+  border: 1px solid #3D305B;
   background-color: #3D305B;
   color: #FFF;
 }
@@ -95,6 +97,12 @@ a.cart {
   background-color: transparent;
   border: 1px solid #3D305B;
   color: #3D305B;
+}
+
+.btn-2:hover {
+  background-color: transparent;
+  border: 1px solid #FFF;
+  color: #FFF;
 }
 
 @media (min-width: 768px) {
