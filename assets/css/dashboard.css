@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.modal {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -110,9 +110,17 @@
   background-color: #3D305B;
 }
 
+.customers {
+  margin-top: 2rem;
+}
+
 @media (min-width: 768px) {
   .product {
     flex: 46%;
     margin: 1rem;
+  }
+
+  .customer .name {
+    margin-left: 1rem;
   }
 }
