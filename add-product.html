@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Create shop</title>
+  <title>Add Product</title>
   <link rel="stylesheet" href="./assets/css/global.css">
-  <link rel="stylesheet" href="./assets/css/create-shop.css">
+  <link rel="stylesheet" href="./assets/css/add-product.css">
 </head>
 <body>
   <nav>
@@ -33,33 +33,33 @@
   </nav>
 
   <div class="container">
-    <div class="create-shop">
-      <h2 class="header">Create shop.</h2>
-      <p class="info">Fill in your credentials</p>
+    <div class="add-product">
+      <h2 class="header">Add a product.</h2>
+      <p class="info">Fill in the product details</p>
       <form class="create-form">
         <div class="form-group">
-          <label>Name of shop</label>
-          <input type="text" name="name" placeholder="your shop name" />
+          <label>Name</label>
+          <input type="text" name="name" placeholder="product name" />
         </div>
         <div class="form-group">
-          <label>Your logo</label>
+          <label>Price</label>
+          <input type="number" name="price" placeholder="product price" />
+        </div>
+        <div class="form-group">
+          <label>Discounted price (if any)</label>
+          <input type="number" name="dprice" placeholder="discounted price" />
+        </div>
+        <div class="form-group">
+          <label>Product image</label>
           <input type="file" name="img" accept="image/*" />
         </div>
         <div class="form-group">
-          <label>Twitter handle</label>
-          <input type="text" name="twitter" placeholder="your twitter handle"  />
-        </div>
-        <div class="form-group">
-          <label>Instagram handle</label>
-          <input type="text" name="instagram" placeholder="your instagram handle"  />
-        </div>
-        <div class="form-group">
           <label>Description</label>
-          <textarea name="description" cols="30" rows="8" placeholder="describe your shop"></textarea>
+          <textarea name="description" cols="30" rows="8" placeholder="describe the item"></textarea>
         </div>
-        <button type="submit" class="submit-btn">Create shop</button>
+        <button type="submit" class="submit-btn">Add product</button>
       </form>
-      <p class="add-products">Already have a shop? <a href="./add-product.html">Add a product</a></p>
+      <p class="create-shop">Don't have a shop yet? <a href="./create-shop.html">Create a shop</a></p>
     </div>
   </div>
 
