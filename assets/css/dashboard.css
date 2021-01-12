@@ -1,0 +1,118 @@
+.hamburger {
+  display: flex;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: none;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 1rem;
+  min-height: 100vh;
+  min-width: 300px;
+  background-color: #F4F5F7;
+  transform: translateX(-300px);
+  transition: all .3s;
+}
+
+.sidebar-link {
+  padding: 1rem;
+  display: block;
+  color: #FFF;
+  font-weight: 600;
+}
+
+.sidebar-link.active {
+  background-color: #3D305B;
+}
+
+.sidebar-link:hover {
+  background-color: #3D305B;
+}
+
+.main-content {
+  padding: 1rem;
+}
+
+.main-content .header {
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+  background-color: #FFF;
+  border-radius: 1.2rem;
+  flex: 100%;
+}
+
+.product .content {
+  display: flex;
+}
+
+.product-image {
+  margin-right: .8rem;
+}
+
+.product-image img {
+  width: 80px;
+}
+
+.product-price {
+  color: #3D305B;
+}
+
+.product-discount {
+  font-size: .9rem;
+  color: #0000009c;
+}
+
+.shipping {
+  font-size: .9rem;
+  margin-bottom: 1rem;
+}
+
+.product .buttons {
+  margin-top: 1rem;
+}
+
+.product .buttons button {
+  font-size: 1rem;
+  padding: .4rem;
+  color: #FFF;
+  min-width: 100px;
+  border: 1px solid transparent;
+}
+
+.product .buttons .delete {
+  background-color: red;
+}
+
+.product .buttons .edit {
+  background-color: #3D305B;
+}
+
+@media (min-width: 768px) {
+  .product {
+    flex: 46%;
+    margin: 1rem;
+  }
+}
