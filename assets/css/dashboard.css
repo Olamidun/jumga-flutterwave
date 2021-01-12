@@ -80,12 +80,12 @@
   color: #3D305B;
 }
 
-.product-discount {
+.product-discount, .product-quantity {
   font-size: .9rem;
   color: #0000009c;
 }
 
-.shipping {
+.shipping, .subtotal {
   font-size: .9rem;
   margin-bottom: 1rem;
 }
