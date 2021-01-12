@@ -108,6 +108,15 @@ a.cart {
   color: #FFF;
 }
 
+/* footer */
+footer {
+  background-color: #252F3F;
+  text-align: center;
+  color: #FFF;
+  padding: 3rem;
+  margin-top: 4rem;
+}
+
 @media (min-width: 768px) {
   /* Nav */
   .nav-links {
