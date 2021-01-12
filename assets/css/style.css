@@ -124,9 +124,16 @@
   margin: 1rem 0;
 }
 
-.section-3 .row .col:nth-child(1) img,
+.section-3 .row .col:nth-child(1) img {
+  width: 110px;
+}
+
+.section-3 .row .col:nth-child(2) img {
+  width: 200px;
+}
+
 .section-3 .row .col:nth-child(3) img {
-  width: 150px;
+  width: 135px;
 }
 
 @media (min-width: 768px) {
