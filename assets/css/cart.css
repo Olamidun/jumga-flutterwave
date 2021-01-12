@@ -30,11 +30,13 @@ body {
 
 .product-price {
   color: #3D305B;
-  margin: .8rem 0;
+  margin: .5rem 0;
 }
 
 .product-details .buttons button {
-  padding: .2rem .7rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
   background-color: #3D305B;
   border: none;
   color: #FFF;
